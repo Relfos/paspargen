@@ -16,7 +16,9 @@ The answer is yes, as long as we're ok with cutting some corners.
 How it works
 ----------------
 Paspargen requires just a single grammar file as input.
+
 A grammar file is just composed of a big list of rules, and Paspargen automatically deduces what rules should be handled to the lexer, and what should be handled by the parser.
+
 Rules are turned into nodes of a abstract sintax tree and checked for redundancy and circular references.
 
 Node types supported
